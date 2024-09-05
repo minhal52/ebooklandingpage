@@ -508,11 +508,79 @@ margin-bottom: 1rem;
 }
 
 /*=============== DISCOUNT ===============*/
+.discount-container{
+  row-gap: 3.5rem;
+}
+.discount-data{
+  text-align: center;
+}
 
+.discount-title{
+  margin-bottom: 1rem;
+}
+.discount-images{
+  display: flex;
+  justify-content: center;
+}
 
+.discount-img-1 ,
+.discount-img-2{
+  width: 170px;
+}
+
+.discount-img-1{
+  transform: translateX(1rem) rotate(-10deg);
+}
+.discount-img-2{
+  transform: translateX(-1rem) rotate(10deg);
+}
 /*=============== NEW ===============*/
+.new-card{
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+  background-color: var(--container-color);
+  padding: 1.5rem 1rem;
+  color: var(--text-color);
+  border: 2px solid var(--border-color);
+  transition: border .4s, background-color .4s;
+}
 
+.new-card:hover{
+  border: 2px solid var(--text-color);
+}
 
+.new-img{
+  width: 100px;
+}
+
+.new-title{
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.new-prices{
+  display: flex;
+  align-items: center;
+  column-gap: .75rem;
+  margin-bottom: .75rem;
+}
+
+.new-discount{
+  color: var(--title-color);
+}
+
+.new-price{
+  font-size: var(--small-font-size);
+  text-decoration: line-through;
+}
+.new-stars{
+  color: var(--first-color);
+}
+
+.new-swiper:nth-child(1){
+  margin-bottom: 2rem;
+}
 /*=============== JOIN ===============*/
 .join{
   position: relative;
